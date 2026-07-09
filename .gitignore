@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Secrets
+.env
+
+# Large media not needed in the repo
+*.mp4

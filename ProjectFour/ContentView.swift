@@ -8,17 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showingStartup = true  // Initially, we are showing the startup screen
+    @State private var isEditing = false  // Use @State here
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            if showingStartup {
+                StartupView(isShowing: $showingStartup)
+            } else {
+                StocksView(isEditing: $isEditing)
+            }
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
-}
+//#Preview {
+//    ContentView()
+//}
