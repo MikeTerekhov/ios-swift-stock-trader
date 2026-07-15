@@ -3,6 +3,7 @@
 A SwiftUI iOS app for browsing stocks, tracking a watchlist, and simulating trades with a virtual cash balance. Paired with a Node/Express backend that proxies market data and persists portfolio state in MongoDB.
 
 This is an IOS recreation of https://github.com/MikeTerekhov/stock-trader-web
+demo video : https://drive.google.com/file/d/1G0py_CHOK5--rB8V2uvFzLC7KYdYp6uC/view?usp=sharing
 
 ## Features
 
